@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Giuseppe Marchesiello">
+    <meta name="description" content="Exercize HTML CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/utils.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exercize HTML CSS</title>
+</head>
+
+<body>
+    <header class="w-100 d-flex flex-column">
+        <section class="w-100 h-50 d-flex justify-between align-center padding">
+            <div class="h-100 d-flex justify-center align-center">
+                <a href="#">
+                    <img src="https://www.w3schools.com/images/w3schools.png" alt="w3schools logo">
+                </a>
+            </div>
+            <div class="h-100 d-flex justify-center align-center" id="largest">
+                <span>THE WORLD'S LARGEST WEB DEVELOPER SITE</span>
+            </div>
+        </section>
+        <nav class="w-100 h-50 d-flex justify-start align-center">
+            <div class="h-100 d-flex justify-start align-center">
+                <a href="#" class="w-50 h-100 nav-link d-flex justify-center align-center">TUTORIALS</a>
+                <a href="#" class="w-50 h-100 nav-link d-flex justify-center align-center">REFERENCES</a>
+            </div>
+        </nav>
+    </header>
+    <aside class="d-flex flex-column justify-start align-start">
+        <h3 class="padding">Tutorials</h3>
+        <a href="#" class="padding w-100">Learn HTML</a>
+        <a href="#" class="padding w-100">Learn CSS</a>
+        <a href="#" class="padding w-100">Learn W3.CSS</a>
+        <a href="#" class="padding w-100">Learn Colors</a>
+        <a href="#" class="padding w-100">Learn JavaScript</a>
+        <a href="#" class="padding w-100">Learn XML</a>
+        <a href="#" class="padding w-100">Learn SQL</a>
+        <a href="#" class="padding w-100">Learn PHP</a>
+    </aside>
+    <main class="padding d-flex flex-column justify-between align-center gap">
+        <section class="w-100 box box-padding d-flex flex-column justify-between align-start gap">
+            <div class="w-100 d-flex flex-column justify-start align-start">
+                <h1>CSS</h1>
+                <p>The Language for Styling Web Pages</p>
+                <div class="d-flex justify-between align-center gap">
+                    <a href="#" class="button padding">LEARN CSS</a>
+                    <a href="#" class="button padding">CSS REFERENCE</a>
+                </div>
+            </div>
+            <div class="code-box w-100 padding">
+                <p>
+                    <span class="brown">body</span>&nbsp;{
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="red">background-color</span>:&nbsp;
+                    <span class="blue">#d0e4fe</span>;<br />
+                    }<br />
+                    <span class="brown">h1</span>&nbsp;{
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="red">color</span>:&nbsp;
+                    <span class="blue">orange</span>;<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="red">text-aling</span>:&nbsp;
+                    <span class="blue">center</span>;<br />
+                    }<br />
+                    <span class="brown">p</span>&nbsp;{
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="red">font-family</span>:&nbsp;
+                    <span class="blue">"Times New Roman"</span>;<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="red">font-size</span>:&nbsp;
+                    <span class="blue">20px</span>;<br />
+                    }
+                </p>
+            </div>
+            <a href="#" class="button padding">Try it Yourself</a>
+        </section>
+        <section class="w-100 box box-padding d-flex flex-column justify-between align-start gap">
+            <div class="w-100 d-flex flex-column justify-start align-start">
+                <h1>JS</h1>
+                <p>The Language for Programming Web Pages</p>
+                <div class="d-flex justify-between align-center gap">
+                    <a href="#" class="button padding">LEARN JS</a>
+                    <a href="#" class="button padding">JS REFERENCE</a>
+                </div>
+            </div>
+            <div class="code-box w-100 padding">
+                <p>
+                    <span id="green">// Click the button to change the color of this paragraph</span>
+                    <br />
+                    <br />
+                    <span class="blue">function</span>&nbsp;myFunction() {
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">var</span>&nbsp;x;
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;x = document.getElementById(<span class="brown">"demo"</span>);
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;x.style.fontSize =&nbsp;<span class="brown">"25px"</span>;
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;x.style.color =&nbsp;<span class="brown">"red"</span>;
+                    <br />
+                    }
+                </p>
+            </div>
+            <a href="#" class="button padding">Try it Yourself</a>
+        </section>
+    </main>
+    <footer class="padding">
+        <section class="w-100 box d-flex justify-center align-center">
+            <div class="d-flex justify-between align-center gap">
+                <a href="#">FORUM</a>
+                <span>|</span>
+                <a href="#">ABOUT</a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
